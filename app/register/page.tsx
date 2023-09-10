@@ -5,7 +5,7 @@ import Link from 'next/link'
 const page = () => {
   return (
     <div className='max-w-screen-2xl mx-auto'>
-      <div className='flex justify-between my-5 items-center'>
+      <div className='hidden sm:flex justify-between px-3 my-5 items-center'>
         <Link href='/'>
         <img
         className=" h-16 w-16"
@@ -15,6 +15,18 @@ const page = () => {
         </Link>
      
         <p className='text-xl font-medium'>Registration</p>
+      </div>
+
+      <div className='flex justify-center px-3 my-5 items-center sm:hidden'>
+        <Link href='/'>
+        <img
+        className=" h-16 w-16"
+        src="/logo.jpg"
+        alt="TID LOGO"
+      />
+        </Link>
+     
+      
       </div>
 
       {/* public nformation */}
@@ -423,7 +435,7 @@ const page = () => {
         </div>
       </form>
     </div>
-  d</div>
+  </div>
     </div>
    
     

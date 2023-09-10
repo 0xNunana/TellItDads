@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <p className='border-b flex justify-center text-white' >Contributers</p>
+                <p className='border-b flex justify-center text-white' >Contributors</p>
                 
                 <div className='flex justify-around items-center'>
                     <Image src='/nuna.png' height={100} width={100} alt='0xNunana'/>
