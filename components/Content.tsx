@@ -8,7 +8,10 @@ const Content = () => {
             <div className='w-full relative h-[500px]'>
             <Image src='/logo.jpg' fill alt='bg'/>
             </div>
-            <p className='text-center p-3'>Features to be worked on. Kindly contribute to the work. Contributors will be featured in the footer section</p>
+            <p className='text-center p-3'>Features to be worked on. Kindly contribute to the work. Contributors will be featured in the footer section. Please create a branch to work in.Merge conflicts are really tedious. You can reach out to me via kudayapaul@proton.me.
+            <span className='font-bold text-xl'>This is not a paid work. its for fun.</span>
+            
+             </p>
             <div className='grid sm:grid-cols-3 p-5 gap-4'>
             <div className='bg-red-100 p-5'>
   <p>Auhentication</p>
